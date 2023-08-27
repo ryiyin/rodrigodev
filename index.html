@@ -11,6 +11,7 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,13 +41,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de mi</a>
+              <a class="nav-link " href="#about-me">Acerca de mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#projects">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contacto</a>
+              <a class="nav-link" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
@@ -65,7 +66,7 @@
       <section class="profile">
         <div class="profile-body-header">
           <div class="persona">
-            <div class="img"><></div>
+            <span class="img"><></div>
             <div class="persona-name">
               <span class="name">Rodrigo Aguilar</span>
               <span class="job">Fullstack Developer</span>
@@ -118,7 +119,7 @@
         </div>
       </section>
 
-      <section class="profile-cards">
+      <section id="projects" class="profile-cards">
         <div class="profile-body-cards">
           <div class="cards-container">
             <div class="card-content-header">Proyectos</div>
@@ -213,21 +214,47 @@
       </section>
 
       <section class="about-content">
-        <div class="about">
-          <div class="about-header">Mis Skills</div>
+        <div id="about-me" class="about">
+          <div class="about-header">hobies and about me</div>
           <div class="about-description">
             <div>
-              hi
+              <span>
+                hi
+              </span>
             </div>
-            <div>
-              sasa
+            <div class="game">
+              <img src="/media/hojaArbol.jpg" alt="">
             </div>
           </div>
         </div>
       </section>
-      
+
     </section>
 
+    <footer id="contact" class="seccion-obscura d-flex flex-column align-items-center justify-content-center">
+      <span class="footer-logo" >
+        &lt;/&gt;
+      </span>
+      <p class="footer-texto text-center">Aprendo y creo todos los dias.<br> Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>      
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>      
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>      
+        <a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Crado por Rodrigo Mayta Aguilar (2023) ©</div>
+    </footer>
 
 
     <script

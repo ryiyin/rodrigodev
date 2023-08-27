@@ -57,7 +57,7 @@ video {
 .persona {
   display: flex;
   align-items: center;
-  margin-top: 10.5rem;
+ 
 }
 
 .persona-name {
@@ -65,12 +65,14 @@ video {
   flex-direction: column;
   font-family: "Libre Baskerville", serif;
   margin-left: 3.5rem;
+  margin-top: 9rem;
 }
 
-.img{
+.img {
   font-size: 190px;
   color: #00ffd0;
   text-shadow: 20px 20px 0 black, -2px -2px 0 black;
+  margin-top: 9rem;
 }
 
 .name {
@@ -98,13 +100,13 @@ video {
 .icons {
   display: flex;
   flex-direction: column;
-  margin-top: 16rem;
+  margin-top: 11rem;
   width: 80%;
   background-color: rgba(115, 135, 133, 0.3);
   backdrop-filter: blur(20px);
   font-size: 21px;
   border-radius: 5px;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 .icons-header {
   padding: 5px 10px 5px 10px;
@@ -143,41 +145,41 @@ video {
   min-height: 624px;
   color: #ffffff;
   justify-content: center;
-  margin-bottom: 5rem;
+
 }
 
-.card-content-header{
+.card-content-header {
   padding: 5px 10px 5px 10px;
   margin-bottom: 17px;
   box-shadow: 0 0 2px 0px #fff, inset 0 0 2px #fff, 0px 0px 3px 2px #00ffd0c6,
     inset 0 0 10px 1px #00ffd0c6, 0 0 3px #00ffd0c6, inset 0 0 4px #00ffd0c6;
 }
-.cards-container{
+.cards-container {
   width: 80%;
   background: var(--gradient-presentation-background);
 }
 
-.cards{
+.cards {
   background-color: rgba(115, 135, 133, 0.3);
   color: #ffffff;
-  border-top-left-radius:15px ;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius:10px ;
-    border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 15px;
 }
 
-.cards-body{
+.cards-body {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
 }
 
-.cards-title{
+.cards-title {
   margin-bottom: 8px;
 }
 
-small img{
+small img {
   width: 35px;
   height: 35px;
 }
@@ -191,30 +193,98 @@ small img{
   max-width: 1018px;
   color: #ffffff;
   justify-content: center;
-  
 }
 .about {
   display: flex;
   flex-direction: column;
-  margin-top: 16rem;
   width: 80%;
   background-color: rgba(115, 135, 133, 0.3);
   backdrop-filter: blur(20px);
   font-size: 21px;
   border-radius: 5px;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
 }
-.about-description{
+.about-description {
   display: flex;
   flex-direction: row;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
-.about-header{
+.about-header {
   padding: 5px 10px 5px 10px;
   margin-bottom: 17px;
   box-shadow: 0 0 2px 0px #fff, inset 0 0 2px #fff, 0px 0px 3px 2px #00ffd0c6,
     inset 0 0 10px 1px #00ffd0c6, 0 0 3px #00ffd0c6, inset 0 0 4px #00ffd0c6;
+}
+
+.about-description div{
+  border: 2px solid gray; 
+  padding: 20px; 
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.game img{
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  min-height: 500px;
+}
+
+.footer-logo{
+  font-size: 95px;
+  color: #00ffd0;
+  text-shadow: 10px 10px 0 rgb(48, 48, 48), -2px -2px 0 black;
+}
+
+.footer-texto{
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i{
+  color: rgb(198, 212, 223,1);
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+  background-color:white ;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales i:hover{
+  color: black;
+}
+
+.derechos-de-autor{
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+.seccion-obscura{
+  color: white;
+  background-color: black;
 }
 @media screen and (max-width: 700px) {
   .navbar-brand img {

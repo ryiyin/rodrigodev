@@ -159,6 +159,14 @@ video {
   background: var(--gradient-presentation-background);
 }
 
+.card-content a{
+  text-decoration: none;
+}
+
+.card-content h5:hover{
+  color: #67c1f5;
+}
+
 .cards {
   background-color: rgba(115, 135, 133, 0.3);
   color: #ffffff;

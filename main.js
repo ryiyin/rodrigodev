@@ -1,3 +1,6 @@
-var video = document.querySelector("video");
+function costPercent(n){
+    let number=100
+    console.log(number*n)
+}
 
-video.playbackRate = 0.9;
+costPercent(0.1)
